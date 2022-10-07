@@ -107,7 +107,7 @@ class SpringbootSpringdatajpaApplicationTests {
         System.out.println("总的页数:" + all.getTotalPages());
         List<Users> content = all.getContent();
         for (Users users : content) {
-            System.out.println(users);
+            System.out.println(users);+
         }
     }
 
